@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" type="text/css" href="age.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <p style="opacity: 0.9; font-size: small;"> let's Calculate your Age </p>
+        <div class="calculator">
+            <p>Enter Your Date Of Birth</p>
+            <input type="date" id="birthDate" name="birthDate" required>
+            <button id="calculate" onclick="calculateAge()">
+                Calculate Your Age
+            </button>
+            <p id="age"></p>
+            <br>
+            <p id="message">Thank you for visiting us</p>
+        </div>
+    </div>
+    <script src="age.js"></script>
+</body>
+
+</html>
